@@ -1,35 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "@adaptavant/eds-fonts/inter/index.css";
+import "./App.css"; // CSS file with the Tailwind directives
 
-function App() {
-  const [count, setCount] = useState(0)
+import brand from '@adaptavant/eds-brands/setmore';
+import { Root } from '@adaptavant/eds-core';
+import translations from '@adaptavant/eds-translations/english';
+import HelloWorld from "./components/HelloWorld";
 
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Root
+      brand={brand} // brand config and tokens
+      colorScheme="dark" // preferred color scheme
+      translations={translations} // preferred language for text that is built into components
+    >
+      <HelloWorld/>
+    </Root>
+  );
 }
-
-export default App
