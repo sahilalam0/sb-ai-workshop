@@ -1,0 +1,2 @@
+- [Customizing Agents in VS Code](https://anywhere.adaptiveu.io/anywhereworks/link/customize-your-agents)
+- [Level Up Your VS Code Productivity (Mastering AI Workflows)](https://anywhere.adaptiveu.io/anywhereworks/link/level-up-your-vs-code-productivity-mastering-ai-workflows)

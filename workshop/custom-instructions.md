@@ -89,4 +89,4 @@ These only activate when working on files matching the glob pattern.
 
 ## Resources
 
-- [VS Code Docs: Custom Instructions](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
+- [VS Code Docs ( AdaptiveU ): Custom Instructions](https://anywhere.adaptiveu.io/anywhereworks/link/use-custom-instructions-in-vs-code)
