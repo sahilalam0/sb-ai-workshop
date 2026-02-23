@@ -38,7 +38,6 @@ Each file uses YAML frontmatter with an `applyTo` glob:
 ---
 applyTo: "src/components/**/*.tsx"
 ---
-
 Your instructions here...
 ```
 
@@ -103,3 +102,7 @@ This file uses `applyTo: "tests/**"` so the conventions auto-apply whenever you'
 - Path-specific instructions let you have different rules for tests vs. components vs. configs
 - Reusable prompts can **reference** instruction files — define conventions once, use everywhere
 - Use the **Chat Diagnostics** view (right-click in Chat > Diagnostics) to troubleshoot if instructions aren't loading
+
+## Resources
+
+- [VS Code Docs: Custom Instructions](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)

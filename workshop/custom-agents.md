@@ -76,3 +76,7 @@ Custom agents extend this with your own domain-specific roles.
 ```
 
 ---
+
+## Resources
+
+- [VS Code Docs: Custom Agents](https://code.visualstudio.com/docs/copilot/customization/custom-agents)
