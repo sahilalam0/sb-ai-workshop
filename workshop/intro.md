@@ -39,7 +39,7 @@ These building blocks solve that by encoding your team's knowledge **once** — 
 | ----------------------- | ---------------------------- | ---------------------------------- |
 | **Custom Instructions** | Persistent context and rules | Auto-applied to every chat request |
 | **Reusable Prompts**    | Saved prompt templates       | On-demand via `/prompt-name`       |
-| **Custom Agents**       | Role-based AI personas       | On-demand via `@agent-name`        |
+| **Custom Agents**       | Role-based AI personas       | On-demand by selecting the agent   |
 
 ---
 
