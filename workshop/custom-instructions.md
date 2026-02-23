@@ -79,22 +79,6 @@ These only activate when working on files matching the glob pattern.
 
 ---
 
-## Live Demo: Path-Specific Test Instructions
-
-**Already created at:** `.github/instructions/tests.instructions.md`
-
-This file uses `applyTo: "tests/**"` so the conventions auto-apply whenever you're working on test files. It's also referenced by the `/write-tests` reusable prompt — so conventions are defined **once** and reused everywhere.
-
-**Usage:** Open any test file or ask Copilot to modify tests — the instructions load automatically.
-
-**What to observe:**
-
-1. Check the **References** panel — `tests.instructions.md` should be listed
-2. Copilot uses the custom render helper, not `@testing-library/react` directly
-3. Tests follow the project's describe block structure (Rendering, Interactions, Edge cases)
-
----
-
 ## Tips
 
 - Instructions are **version-controlled** — commit them so the whole team benefits

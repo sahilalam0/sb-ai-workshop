@@ -45,12 +45,11 @@ These building blocks solve that by encoding your team's knowledge **once** — 
 
 ## How They Differ
 
-|                     | Custom Instructions               | Reusable Prompts               | Custom Agents                |
-| ------------------- | --------------------------------- | ------------------------------ | ---------------------------- |
-| **Location**        | `.github/copilot-instructions.md` | `.github/prompts/*.prompt.md`  | `.github/agents/*.agent.md`  |
-| **Activation**      | Automatic (always on)             | Manual (`/prompt-name`)        | Manual (`@agent-name`)       |
-| **Scope**           | Repo-wide or path-specific        | Task-specific                  | Role-specific                |
-| **Visibility**      | Hidden (shown in References)      | Visible in prompt picker       | Visible in agent picker      |
-| **Has Frontmatter** | Only path-specific ones           | Yes (mode, tools, description) | Yes (tools, handoffs, model) |
+|                | Custom Instructions               | Reusable Prompts              | Custom Agents               |
+| -------------- | --------------------------------- | ----------------------------- | --------------------------- |
+| **Location**   | `.github/copilot-instructions.md` | `.github/prompts/*.prompt.md` | `.github/agents/*.agent.md` |
+| **Activation** | Automatic (always on)             | Manual (`/prompt-name`)       | Manual (`@agent-name`)      |
+| **Scope**      | Repo-wide or path-specific        | Task-specific                 | Role-specific               |
+| **Visibility** | Hidden (shown in References)      | Visible in prompt picker      | Visible in agent picker     |
 
 ---
