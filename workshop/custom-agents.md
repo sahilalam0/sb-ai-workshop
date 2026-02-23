@@ -5,7 +5,6 @@
 ## What Are Custom Agents?
 
 - **Role-based AI personas** with specific expertise, tools, and boundaries
-- Invoked via **`@agent-name`** in Copilot Chat
 - Think: specialized team members that only have access to tools relevant to their role
 
 ---
